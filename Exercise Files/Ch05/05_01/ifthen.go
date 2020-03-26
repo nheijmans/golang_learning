@@ -4,7 +4,18 @@ import "fmt"
 
 func main() {
 
-	var x float64 = 42
+	//var x float64 = 42
 	var result string
-	
+
+        if x :=42; x < 0 {
+            result = "Less than zero"
+        } else if x == 0 {
+            result = "Equal to zero"
+        } else {
+            result = "More than zero"
+        }
+        fmt.Println(result)
+//        fmt.Println(x)
+
+
 }
